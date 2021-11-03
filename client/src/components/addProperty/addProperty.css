@@ -1,0 +1,86 @@
+.addprop_background {
+  background-color: #f7f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.addprop_container {
+  padding: 0 105px 0 95px;
+  width: 60%;
+  min-height: 70%;
+  padding: 24px 95px 135px 95px;
+  background-color: white;
+  box-shadow: 0px 20px 20px rgba(40, 40, 40, 0.05);
+  border-radius: 10px;
+  position: relative;
+}
+
+.addprop_buttons {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+.addprop_buttons button {
+  margin-left: 30px;
+  background-color: #34c15c;
+  color: white;
+  width: 160px;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addprop_buttons button:first-child {
+  background-color: red;
+}
+
+.addprop_form_input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.addprop_form_input input {
+  width: 255px;
+  height: 32px;
+  margin-top: 8px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.addprop_form_input label::after {
+  content: " *";
+  width: 3px;
+  height: 3px;
+  color: red;
+}
+
+.addprop_form_input_radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.addprop_form_input_radio label {
+  margin: 16px 0 12px 0;
+}
+
+.addprop_form_input_radio > label::after {
+  content: " *";
+  width: 3px;
+  height: 3px;
+  color: red;
+}
+
+.addprop_form_input_radio input {
+  margin-bottom: 8px;
+}
+
+.addprop_form_input_radio div label {
+  margin-left: 12px;
+}

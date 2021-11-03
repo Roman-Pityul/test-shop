@@ -1,0 +1,97 @@
+.list_i_background {
+    background-color: #F7F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list_i_container {
+    padding: 0 105px 0 95px;
+    margin-top: 70px;
+    width: 60%;
+    min-height: 70%;
+    padding: 24px 95px 135px 95px;
+    background-color: white;
+    box-shadow: 0px 20px 20px rgba(40, 40, 40, 0.05);
+    border-radius: 10px;
+    position: relative;
+}
+
+.list_i_nav {
+    width: 500px;
+    height: 70px;
+    position: absolute;
+    top: -70px;
+}
+
+.list_i_nav_ul {
+    list-style: none;    
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.list_i_nav_ul  li {
+    width: 255px;
+    text-align: center;
+}
+
+.list_i_nav_ul  li a {
+    display: block;
+    line-height: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.list_i_nav_ul  li a:hover {
+    border: 1px solid #FFB800;
+    border-radius: 3px;
+}
+
+.list_i_nav_ul  li:first-child {
+    background-color: #FFB800;
+    color: white;
+    border-radius: 3px;
+}
+
+.list_i_button {
+    text-align: right;
+    margin-bottom: 20px;
+    
+}
+
+.list_i_button button{
+    width: 160px;
+    height: 32px;
+    background: #FFB800;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.list_i_list {
+    width: 100%;
+    text-align: left;
+}
+
+.list_i_list tr {
+    line-height: 40px;
+}
+
+.list_i_list th {
+    border-bottom: 1px solid #F7F9FA;
+    line-height: 40px;
+}
+
+.list_i_list tr td {
+    border-bottom: 1px solid #F7F9FA;
+}
+
+.list_i_list tr td a:last-child {
+    margin-left: 15px;
+}
